@@ -13,4 +13,8 @@ jobs:
         run: uname
       - name: say "Good -bye"
         run: echo "Done - Good-Bye"
+      - name: Run multipe command line
+        run: |
+          ls -la
+          pwd
 
