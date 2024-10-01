@@ -1,0 +1,16 @@
+# This is a basic workflow to help you get started with Actions
+
+name: my first workflow
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch:
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print name of OS
+        run: uname
+      - name: say "Good -bye"
+        run: echo "Done - Good-Bye"
+
